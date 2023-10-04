@@ -1,0 +1,50 @@
+body {
+  font-family: "Google Sans", arial, sans-serif;
+}
+
+h1 {
+  color: rgb(32, 33, 36);
+  font-size: 22px;
+  font-weight: 400;
+  height: auto;
+  line-height: 26px;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: rgb(112, 117, 122);
+  font-size: 12px;
+  line-height: 133%;
+}
+
+li span {
+  color: rgb(112, 117, 122);
+  font-size: 16px;
+  line-height: 125%;
+}
+
+ul.list-right {
+  text-align: right;
+}
+
+ul.up-indicators {
+  padding-top: 6px;
+}
+
+.weather-app-wrapper {
+  max-width: 650px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #c4b7b7;
+  border-radius: 5px;
+}
