@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="crs/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -24,23 +25,21 @@
                   alt="Cloudy"
                 />
                 <div class="d-flex">
-                  <strong>17</strong
+                  <strong id="temperature"></strong
                   ><span class="units">°C | <a href="#">°F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-3">
-              <ul class="top-list-centre">
-                <li>Precipitation: 15%</li>
-                <li>Humidity: 57%</li>
-                <li>Wind: 11 km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
             <div class="col-5">
-              <h1>Kharkov</h1>
+              <h1 id="city"></h1>
               <ul class="list-right">
                 <li><span>Wednesday 21:00</span></li>
-                <li><span>Cloudy</span></li>
+                <li><span id="description"></span></li>
               </ul>
             </div>
           </div>

@@ -22,9 +22,10 @@ li {
   color: rgb(112, 117, 122);
   font-size: 12px;
   line-height: 133%;
+  text-transform: capitalize;
 }
 
-li span {
+.list-right li {
   color: rgb(112, 117, 122);
   font-size: 16px;
   line-height: 125%;
@@ -59,7 +60,7 @@ small {
 
 .weather-temperature strong {
   color: rgb(32, 33, 36);
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 400;
   line-height: 1.17;
 }
