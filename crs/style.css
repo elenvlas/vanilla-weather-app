@@ -34,17 +34,35 @@ ul.list-right {
   text-align: right;
 }
 
-ul.up-indicators {
+ul.top-list-centre {
   padding-top: 6px;
 }
 
 .weather-app-wrapper {
   max-width: 650px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid #c4b7b7;
   border-radius: 5px;
+}
+
+small {
+  font-size: 11px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+}
+
+.weather-temperature strong {
+  color: rgb(32, 33, 36);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.weather-temperature span {
 }
