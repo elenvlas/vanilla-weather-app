@@ -68,5 +68,11 @@ small {
   line-height: 1.17;
 }
 
-.weather-temperature span {
+.weather-temperature .active {
+  color: rgb(32, 33, 36);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
