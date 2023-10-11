@@ -43,7 +43,7 @@ ul.top-list-centre {
 }
 
 .weather-app-wrapper {
-  max-width: 650px;
+  max-width: 600px;
   margin: 20px auto;
 }
 
@@ -75,4 +75,22 @@ small {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
