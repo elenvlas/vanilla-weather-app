@@ -57,10 +57,6 @@ small {
   font-size: 11px;
 }
 
-.weather-temperature img {
-  margin-right: 10px;
-}
-
 .weather-temperature strong {
   color: rgb(32, 33, 36);
   font-size: 54px;
