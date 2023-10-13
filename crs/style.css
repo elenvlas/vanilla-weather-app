@@ -10,7 +10,6 @@ h1 {
   height: auto;
   line-height: 26px;
   text-align: right;
-  margin-bottom: 0;
 }
 
 ul {
@@ -73,6 +72,14 @@ small {
 
 .date {
   color: #ee552b;
+}
+
+.col-btn {
+  padding-left: 0;
+}
+
+.col-list-right {
+  padding-right: 30px;
 }
 
 .weather-forecast {
